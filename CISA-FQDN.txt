@@ -1,8 +1,8 @@
 # CISA / MS-ISAC domain block list - AUTO-GENERATED, do not hand-edit.
 # Sources: cti-lists 30-day feed + forwarded MS-ISAC CSVs. Retention: 90 days since last seen.
-# Rebuilt: 2026-08-10 14:43  -  2183 active domain.
+# Rebuilt: 2026-08-11 03:15  -  2183 active domain.
 
-# 2026-08-10 07:36  -  1833 domain(s)
+# 2026-08-11 03:15  -  1833 domain(s)
 0022a601.pphost.net
 00i2voh5z2rjerod.mondragonpavings.com
 01pr.com.tr
@@ -177,12 +177,12 @@ atom.freehosting.dev
 atqfb.calirayalake.com
 audicontadores.com
 aupzcajq.biabet90.com
-auth-clo-id.cc
-auth-code-verif.beer
-auth-id-browser.info
 auth.documentsalived.com
 auth.ernesto.vu
 auth.kalastonch.com
+auth-clo-id.cc
+auth-code-verif.beer
+auth-id-browser.info
 authorization-cdn-press-enter.info
 authorization-code.beer
 authorization-code.info
@@ -261,8 +261,8 @@ blbnchard.lol
 blessdayservices.org
 blogs.sokun.jp
 bmdcompany.com
-bnet-api.playm8ru.win
 bnet.playm8ru.win
+bnet-api.playm8ru.win
 boblegvlist.christmas
 bogisibh.xyz
 bold-blab-cold.xyz
@@ -286,12 +286,12 @@ brave-evolution.com
 breakneckridgefarm.com
 bred-mornidea.xyz
 bridgeroad.maverickpreviews.com
-brig-skipdeep.xyz
 brightestprocexchange.wiki
 brightworks.cz
-brisk-with-easy.xyz
+brig-skipdeep.xyz
 briskinternet.com
 briskpair-rode.xyz
+brisk-with-easy.xyz
 brmzm.jadoou.space
 broadwalkindia.com
 brodyy-39471.portmap.host
@@ -328,10 +328,10 @@ cdbxemdoq.toofan90bet.com
 cdctvukr.taktikkbet.com
 cdgq-zdu6-5js8.nicole-usabrandinggroups-com-s-account.workers.dev
 cdmke7zf.sky7bet.casino
-cdn-chromos.s3.amazonaws.com
-cdn-verification-cloud.boats
 cdn.anzho06.xyz
 cdn.file6.goodid.com
+cdn-chromos.s3.amazonaws.com
+cdn-verification-cloud.boats
 cehamilton.com
 celebratingseniors.net
 cess.digishart.news
@@ -369,23 +369,23 @@ claufancdn.beer
 claylikepilot.xyz
 cleenfoecleen22.com
 clhfgcomacdn.beer
-clou-dprotect.com
 cloud.pearlpeel.com
 cloudimagehostingupdatesrealted.yzz.me
 cloudmemedprescriodigitalsolutions.crqltossco.vu
+clou-dprotect.com
 cloudstorage-hub.com
 clubdetiroelpicarcho.com
 clustercolocate.com
 cn.unionlever.com
 cnash-ymcainw-org-s-account.workers.dev
 cnc.strikec2.wtf
-co-emas.com
 coalfact-tear.xyz
-code-verification-js.beer
 code.verification-claude-cdn.beer
 codecerification.beer
 codepit-rized-denengine.garden
+code-verification-js.beer
 codeverificatrorcl.info
+co-emas.com
 columna.lol
 comples.biz
 compuserviceonline.com.br
@@ -428,7 +428,6 @@ customcreationsmaine.com
 cutting-edge.in
 cuttingedgefencing.ca
 cvyfg.kopicoffeeco.com
-d-mart.vn
 d.14yaa.com
 d.wanyouxi7.com
 dalindo.lol
@@ -460,15 +459,15 @@ dialkwik.in
 dice-grate-plan.xyz
 died-halo-tang.xyz
 diet-graymost.xyz
-digital-magicians.com
 digitalenterprise2026.com
+digital-magicians.com
 dikdiy.xyz
 dimebrothers.com
 diphtongspecialchess.courses
 diranda.lol
 directdownloadl.ink
-disk-bask-rusk.xyz
 disk.accord1key.cn
+disk-bask-rusk.xyz
 distrib-ost-penal-network.garden
 distributed-cache-storage-layer.wiki
 distributedgardenanalytics.garden
@@ -480,6 +479,7 @@ dl.natgo.cn
 dl.proxiespool.wiki
 dldtalent.com
 dlylkjaji.jetboro.fun
+d-mart.vn
 dn-pdflite.lat
 doc.e-statements.app
 docsfan-flora-ability-system.garden
@@ -490,9 +490,8 @@ dollllar881122.icu
 dolmaq.shop
 donkeytourscroatia.com
 douwetiwn.newmarys.com
-dove-void-pave.xyz
 dovepact-gist.xyz
-down-loanleap.xyz
+dove-void-pave.xyz
 down.54nb.com
 down.fwqlt.com
 down.pcclear.com
@@ -505,6 +504,7 @@ download.pdf00.cn
 download.pdf00.com
 download.protictionview-19-239.es
 download.suxiazai.com
+down-loanleap.xyz
 dowonline.ru
 dows.sabad724.bio
 dqgfzcgm.hazzarat.world
@@ -590,8 +590,6 @@ exototy.xyz
 expert-trading-academy.courses
 explorer.vg
 ext-bot.lol
-f-codebase.lol
-f-codee.lol
 f3wz-6bed-32jy.view-shared-document-reviewpending-document.workers.dev
 facebook.battledomus.com
 facefotik.top
@@ -607,10 +605,12 @@ faster-cdn-hk.click
 faughlessbeforehim.org
 fazv.jadoobet.pro
 fcmznlck.hazaratbet.games
+f-codebase.lol
+f-codee.lol
 fd.v2downf.shop
 fds.jetbet1.online
-federated-storage-cluster-system.wiki
 federatedplantmesh.garden
+federated-storage-cluster-system.wiki
 fee-holders.gl.at.ply.gg
 felomint.click
 femboy.center
@@ -747,8 +747,8 @@ hairkeratin.net
 hakangencoglu.net
 half-mufflurk.xyz
 hamarit.com
-harm-mint-veto.xyz
 harmlick-mode.xyz
+harm-mint-veto.xyz
 harrycook.au
 hartunh.lol
 hasalltalent.com
@@ -771,8 +771,8 @@ hemetcomputers.com
 henreques.lol
 henriqueq.xyz
 heork.derbi.promo
-her-vein-pool.xyz
 heroestales.com
+her-vein-pool.xyz
 hewsseen-tear.xyz
 hftplcnsns.beer
 hgbyapzpe.derbi.football
@@ -840,8 +840,8 @@ iqgxtjfc.hazzarat.world
 iqr1pfqd.okegass.net
 iradzik-usawarriorshockey-org-s-account.workers.dev
 ircftp.net
-irrigation-control-network.garden
 irrigationautomationhub.garden
+irrigation-control-network.garden
 isbbetvcj.adsbln1.xyz
 isiore.com.co
 isrjnxfeb.fg777kito.com
@@ -1045,8 +1045,8 @@ mazeduskloud.xyz
 mcdejwixr.fg777depo5k.com
 mcsharepoint.com
 meadow-observability-core.garden
-meadow-processing-core.garden
 meadowprocessingcenter.garden
+meadow-processing-core.garden
 meadowworkflowframework.garden
 medeano.lol
 medises.co.kr
@@ -1069,8 +1069,8 @@ mitreart.com
 mixed-on-storage-layer.garden
 mlmaatvd.behtarin-site-shartbandi.com
 mmoran-namiglac-org-s-account.workers.dev
-moan-prod-did.xyz
 moandownsave.xyz
+moan-prod-did.xyz
 mobilab.by
 mobimpex.ro
 mode-poll-grew.xyz
@@ -1197,8 +1197,8 @@ ovementxview.com
 over-clapmolt.xyz
 p3.zbjimg.com
 p43qsij4.nextbahis.one
-packet-relay-engine.courses
 packetget.com
+packet-relay-engine.courses
 paeggbox.xyz
 paevzvhgt.efbetfarsi.com
 page-vest-lost.xyz
@@ -1212,8 +1212,8 @@ part-doselawn.xyz
 part-lame-door.xyz
 part-tape-into.xyz
 partytimedjsohio.com
-past-reefprin.xyz
 pastee.dev
+past-reefprin.xyz
 pay.aqiu6.com
 paypal.battledomus.com
 pcipjcar.fileboroo.com
@@ -1340,11 +1340,11 @@ roblox-xeno.net
 rollgropeamid.xyz
 root-slot-quit.xyz
 root-system-irrigation.garden
-rope-goalalso.xyz
 ropea.top
+rope-goalalso.xyz
 ropestem-math.xyz
-rose-wallidea.xyz
 rosecodeknew.xyz
+rose-wallidea.xyz
 rout-draw-roll.xyz
 royalindiancurryclub.com
 rueckec.lol
@@ -1365,16 +1365,16 @@ s1.thewellformedwoman.com
 s3o65awrf56.net
 sa1atik.cn
 sablayan.seasonshotelmindoro.com
-saf-oil.ru
 safesecurecart.com
 safeuploadz.com
+saf-oil.ru
 said-site-luck.xyz
 sail-sham-step.xyz
 sajaklangit.com
 salator.es
 salonmarketing.ca
-same-theeaft.xyz
 samecobmill.xyz
+same-theeaft.xyz
 samiksha.com.sg
 sand-lure-noon.xyz
 sandystudiogh.blog
@@ -1382,9 +1382,9 @@ sarinaglobal.sbs
 sartora.lol
 sc.c1s.su
 scainseto.com.br
-scan-coolhock.xyz
 scan.ivankozlovsky.com
 scanbot.me
+scan-coolhock.xyz
 schluter.lol
 schuttc.lol
 scjzlqeyk.hazzarat.world
@@ -1396,10 +1396,10 @@ sec.xiaojiji.nl
 sec.xiaoshabi.nl
 second-human.lol
 second-v.top
-secure-site.icu
 secureassesments.exportvestpays.info
 securedenvironment.com
 securedisk.cfd
+secure-site.icu
 sedoasiis.com
 seducingdelirium.surf
 seemeet-vine.xyz
@@ -1466,8 +1466,8 @@ softcatalog.ru
 softincg.workers.dev
 softwarecdn.net
 soilleafmain.xyz
-solar-sanat.net
 solarengyloanfunds.com
+solar-sanat.net
 sole-cederole.xyz
 solidaxis.com.ng
 solutiokzmnsprivatelimited.vu
@@ -1483,8 +1483,8 @@ srfuewty.icu
 srtydnnc.beer
 ss-01.com
 ssc.nexajs.com
-stack-control-plane.christmas
 stackbridge.christmas
+stack-control-plane.christmas
 stackforgeacademy.courses
 starcountry.net
 statement-joy-page.lovable.app
@@ -1517,8 +1517,8 @@ subterranean-mineral-map.garden
 such-sitejoke.xyz
 suitgive-jerk.xyz
 sunix-technology.com
-support-data.com
 support.clz.kr
+support-data.com
 surf-life-sank.xyz
 surgeonperth.com.au
 sutterpoint.com
@@ -1541,8 +1541,8 @@ talentrecruitments.com
 tallermavila.com
 tame-damp-nail.xyz
 tampareroofing.com
-tang-sail-and.xyz
 tangentwaves.com
+tang-sail-and.xyz
 tanscarattorneys.co.tz
 tapestryoftruth.com
 taxassessment.cyou
@@ -1638,8 +1638,8 @@ tufxszft.efcasino.bet
 tuplediskdkey.christmas
 turniron-mound.xyz
 tvknglirv.jadoou.space
-twit-follow.vg
 twitch.tj
+twit-follow.vg
 tygnu.lokercorp.com
 tylarion867mino.com
 tzpx.courses
@@ -1673,7 +1673,6 @@ uvxzsajar.lion1bet.com
 uvzbxwuc.gamehazarat.com
 uwfnfzo.notivora.nl
 uwrx-9frz-jnmh.accountsreceivable-flgure-net-s-account.workers.dev
-v-k.com.ua
 v2.duemineral.uk
 v2.octopi365.com
 vandenheuvll.lol
@@ -1707,6 +1706,7 @@ vizyonuniversitesi.web.tr
 vjs8k4dd.betyek.bio
 vjscloudjsns.beer
 vjy888.com
+v-k.com.ua
 vkvmygpg.betbuf90.com
 vmwrvtools.com
 voihxd.xyz
@@ -1743,8 +1743,8 @@ wgbkut.bet1roulette.com
 widexenmexico.com.mx
 wig5l9be.calirayalake.com
 wildfloragrowthsystem.garden
-will-side-weed.xyz
 willbile-gyms.xyz
+will-side-weed.xyz
 wind-cragblur.xyz
 windomstatetheater.com
 wisemateboth.xyz
@@ -1778,9 +1778,9 @@ xhozx.onjabet1.com
 xlkgryx.penalty.casino
 xmmm-0ncb-w1x2.yuriel-musab-dropoffs-org-s-account.workers.dev
 xn--on3b15m2lco2u.com
-xn--yh4bx88a.com
 xnshgwgf.bingobet.bingo
 xnuleibw.site-shartbandi-khareji.com
+xn--yh4bx88a.com
 xomsymkut.derbi.football
 xpzjxywai.funxbet.casino
 xquxoceqj.radioshartbandi.bet
@@ -1986,13 +1986,13 @@ esjvtzn6.aloo.bet
 etddhyf.takbetkade.com
 evhg599x.lemongrassasiangrill.com
 evypenr.winnerbahis-tr.com
-ext-verif.lol
 ext4-v.top
+ext-verif.lol
 f5sxjso14wrweel.top
 fdskeoljs92b0t1.top
 feeykse.betbacklink.com
-fin-code.lol
 finale-code.lol
+fin-code.lol
 finpremium.ru
 fituwzg.yek.autos
 flhrpdn.yekbetkade.com
@@ -2080,9 +2080,9 @@ nomadtrade.app
 ob0fix15.1xgame.org
 one-check.lol
 one-confirm.lol
+onetime-v.lol
 one-verif.lol
 one-verification.lol
-onetime-v.lol
 openpourwhiskey.com
 otlqkiy.betmiz.bet
 ovrrdtl.ace90.casino
