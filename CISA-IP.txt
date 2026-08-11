@@ -1,8 +1,8 @@
 # CISA / MS-ISAC IP block list - AUTO-GENERATED, do not hand-edit.
 # Sources: cti-lists 30-day feed + forwarded MS-ISAC CSVs. Retention: 90 days since last seen.
-# Rebuilt: 2026-08-10 14:43  -  454 active IP.
+# Rebuilt: 2026-08-11 03:15  -  454 active IP.
 
-# 2026-08-10 07:36  -  229 IP(s)
+# 2026-08-11 03:15  -  229 IP(s)
 4.213.167.22
 5.116.205.219
 5.161.242.221
