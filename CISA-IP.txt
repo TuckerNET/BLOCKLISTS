@@ -1,6 +1,29 @@
 # CISA / MS-ISAC IP block list - AUTO-GENERATED, do not hand-edit.
 # Sources: cti-lists 30-day feed + forwarded MS-ISAC CSVs. Retention: 90 days since last seen, escalating to 180 then 365 on repeat appearance.
-# Rebuilt: 2026-08-18 03:15  -  494 active IP.
+# Rebuilt: 2026-08-18 11:58  -  515 active IP.
+
+# Medusa 2026-08-18  -  21 IP(s)
+23.234.89.195
+23.234.93.112
+23.234.106.242
+37.19.21.180
+37.221.66.239
+45.61.150.94
+83.138.53.139
+85.155.186.121
+94.156.67.145
+143.110.243.154
+143.244.47.89
+146.70.172.247
+155.2.215.69
+155.2.215.71
+167.88.166.173
+185.135.86.185
+185.238.231.4
+185.238.231.16
+185.238.231.77
+185.238.231.85
+185.238.231.98
 
 # 2026-08-18 03:15  -  205 IP(s)
 2.27.62.123
