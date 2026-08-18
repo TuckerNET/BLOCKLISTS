@@ -1,6 +1,10 @@
 # CISA / MS-ISAC domain block list - AUTO-GENERATED, do not hand-edit.
 # Sources: cti-lists 30-day feed + forwarded MS-ISAC CSVs. Retention: 90 days since last seen.
-# Rebuilt: 2026-08-18 03:15  -  2520 active domain.
+# Rebuilt: 2026-08-18 11:58  -  2522 active domain.
+
+# Medusa 2026-08-18  -  2 domain(s)
+3324.requestcatcher.com
+erp.ranasons.com
 
 # 2026-08-18 03:15  -  1789 domain(s)
 0022a601.pphost.net
