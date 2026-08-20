@@ -1,7 +1,14 @@
 # VPN failed-login IP block list (24hr-VPN) - AUTO-GENERATED, do not hand-edit.
 # Source: 24hr-VPN@dc911sd.org daily 24HR-VPN.txt (IPs with 5+ failed SSL VPN logins/24h).
 # Retention: 90 days since last seen, escalating to 180 then 365 on repeat appearance.
-# Rebuilt: 2026-08-19 03:17  -  175 active IP.
+# Rebuilt: 2026-08-20 03:17  -  180 active IP.
+
+# 2026-08-20 03:17  -  5 IP(s)
+77.91.71.90
+185.136.15.80
+185.136.15.81
+185.136.15.82
+216.170.223.57
 
 # 2026-08-19 03:17  -  2 IP(s)
 136.0.213.193
