@@ -1,9 +1,9 @@
-# Heartbeat 2026-10-18 10:30 UTC - 0 new indicator(s); list unchanged.
+# Heartbeat 2026-10-19 10:30 UTC - 0 new indicator(s); list unchanged.
 # CISA / MS-ISAC domain block list - AUTO-GENERATED, do not hand-edit.
 # Sources: cti-lists 30-day feed + forwarded MS-ISAC CSVs. Retention: 90 days since last seen.
-# Rebuilt: 2026-10-18 03:15  -  6831 active domain.
+# Rebuilt: 2026-10-19 03:15  -  6831 active domain.
 
-# 2026-10-18 03:15  -  1713 domain(s)
+# 2026-10-19 03:15  -  1713 domain(s)
 002nz.sbs
 008f18ef58a95a51.unlockyourpotential.co.za
 030087551.shop
