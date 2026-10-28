@@ -1,28 +1,9 @@
+# Heartbeat 2026-10-28 10:30 UTC - 0 new indicator(s); list unchanged.
 # CISA / MS-ISAC domain block list - AUTO-GENERATED, do not hand-edit.
 # Sources: cti-lists 30-day feed + forwarded MS-ISAC CSVs. Retention: 90 days since last seen.
-# Rebuilt: 2026-10-27 03:15  -  7121 active domain.
+# Rebuilt: 2026-10-28 03:15  -  7121 active domain.
 
-# IPs Domains and URLs of Interest 2026-10-18 to 2026-10-24 - TLP AMBER  -  18 domain(s)
-accounts.ysrvhc.app
-coppy.world
-fontroom-my.sharepoint.com
-gfwe435t.es
-go.rovao.net
-kingsbridgehealthcaregroupcom.lovable.app
-login-sandgrid.com
-me.turivicon.com
-newoldstamp.com
-onclickscan.trustifi.com
-poll.forms.app
-sbuymor.qpon
-secureworkspace.es
-vioainva.vu
-www.aieov.com
-www.google.hk
-www.xorados.com
-xenseyu.com
-
-# 2026-10-27 03:15  -  1391 domain(s)
+# 2026-10-28 03:15  -  1391 domain(s)
 002nz.sbs
 030087551.shop
 123.ywxww.net
@@ -1414,6 +1395,26 @@ zozotowmonline.shop
 zs765.com
 zycdjz.com
 zzwksw.com
+
+# IPs Domains and URLs of Interest 2026-10-18 to 2026-10-24 - TLP AMBER  -  18 domain(s)
+accounts.ysrvhc.app
+coppy.world
+fontroom-my.sharepoint.com
+gfwe435t.es
+go.rovao.net
+kingsbridgehealthcaregroupcom.lovable.app
+login-sandgrid.com
+me.turivicon.com
+newoldstamp.com
+onclickscan.trustifi.com
+poll.forms.app
+sbuymor.qpon
+secureworkspace.es
+vioainva.vu
+www.aieov.com
+www.google.hk
+www.xorados.com
+xenseyu.com
 
 # 2026-10-26 03:15  -  443 domain(s)
 008f18ef58a95a51.unlockyourpotential.co.za
