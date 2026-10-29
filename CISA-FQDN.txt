@@ -1,9 +1,9 @@
-# Heartbeat 2026-10-28 10:30 UTC - 0 new indicator(s); list unchanged.
+# Heartbeat 2026-10-29 10:30 UTC - 0 new indicator(s); list unchanged.
 # CISA / MS-ISAC domain block list - AUTO-GENERATED, do not hand-edit.
 # Sources: cti-lists 30-day feed + forwarded MS-ISAC CSVs. Retention: 90 days since last seen.
-# Rebuilt: 2026-10-28 03:15  -  7121 active domain.
+# Rebuilt: 2026-10-29 03:15  -  7121 active domain.
 
-# 2026-10-28 03:15  -  1391 domain(s)
+# 2026-10-29 03:15  -  1391 domain(s)
 002nz.sbs
 030087551.shop
 123.ywxww.net
