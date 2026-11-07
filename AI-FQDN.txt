@@ -1,21 +1,6 @@
-# AI services FQDN block list - HAND-MAINTAINED (not auto-generated).
-# Purpose: block common generative-AI chat, API, writing, image/video/audio and coding services at the FortiGate.
-# Sources: vendor network/allowlist docs (OpenAI, Google Workspace, Cursor), Nullgen ai-blocklist (2026-10),
-#          amnahwaida Pi-hole AI hosts list (2026-03), Netskope/Zscaler/Fortinet community guidance.
-# Built: 2026-11-06  -  186 active FQDNs (144 core + 27 optional coding + 15 Anthropic/Claude).
-# Updated: 2026-11-06  -  M365 Copilot (GCC) hosts allowed - see "Microsoft 365 Copilot (GCC tenant)" note.
-# Published to GitHub TuckerNET/BLOCKLISTS as AI-FQDN.txt (manual push - not in the nightly CISAGitPush).
-#
-# Format: one FQDN per line, no wildcards, no URLs. Lines starting with # are comments.
-# FortiGate domain feeds match each entry EXACTLY (no implied subdomains), so the base domain
-# is listed together with the known working hosts under it.
-# Shared-infrastructure parents (google.com, googleapis.com, microsoft.com, bing.com, cloud.microsoft, office.com,
-# facebook.com, x.com, twitter.com, github.com) are deliberately NOT listed - only AI-specific hosts.
-# NOTE: google.com / googleapis.com are on the CISA _domain_whitelist.txt. Do not run this file through
-#       CISAProcess or the whitelist filter or the Google hosts below will be stripped.
-# The Anthropic / Claude section is LAST and ACTIVE - network admin maintains the Cowork allow-policy above it.
+# AI services FQDN block list - 2026-11-06 - 186 domains
 
-# ==================== OpenAI / ChatGPT / Sora ====================
+# OpenAI / ChatGPT / Sora
 openai.com
 www.openai.com
 api.openai.com
@@ -40,14 +25,16 @@ files.oaiusercontent.com
 oaistatsig.com
 sora.com
 www.sora.com
-# Not listed (shared with thousands of other sites): cdn.workos.com, js.stripe.com, intercom.io,
-# challenges.cloudflare.com, statsig.com. ChatGPT Voice also uses UDP 3478 to OpenAI IP ranges
-# (chatgpt-voice.json) - a DNS/FQDN block does not stop an already-open voice session.
 
-# ==================== Google Gemini / AI Studio / NotebookLM ====================
-# AI-specific hosts only. google.com, googleapis.com, gstatic.com, googleusercontent.com are NOT blocked.
-# Gemini inside Search (AI Mode / AI Overviews), Gmail, Docs and Android stays reachable - turn it off
-# in the Workspace Admin console for managed accounts.
+# Google Gemini / AI Studio / NotebookLM
+# google.com - not blocked, Google Search and sign-in
+# googleapis.com - not blocked, used by most Google services
+# waa-pa.clients6.google.com - not blocked, used by Google sign-in
+# jnn-pa.googleapis.com - not blocked, used by YouTube and sign-in
+# assistant.google.com - not blocked, Google Assistant
+# assistant.googleapis.com - not blocked, Google Assistant
+# opa-pa.googleapis.com - not blocked, shared Google service
+# opa-pa.clients6.google.com - not blocked, shared Google service
 gemini.google.com
 gemini.gstatic.com
 bard.google.com
@@ -63,54 +50,24 @@ appsgenaiserver-pa.clients6.google.com
 labs.google
 deepmind.google
 deepmind.com
-# Vertex AI API - blocks ALL Vertex model calls (Gemini, and Claude/Llama hosted on Vertex). Disable if any
-# internal app or GCP workload uses Vertex.
 aiplatform.googleapis.com
-# Deliberately NOT listed - Google lists these for Gemini but they are shared anti-abuse / assistant backends
-# used by Sign-in, YouTube, Nest and Android Assistant:
-#   waa-pa.clients6.google.com, jnn-pa.googleapis.com, assistant.google.com, assistant.googleapis.com,
-#   opa-pa.googleapis.com, opa-pa.clients6.google.com
 
-# ==================== Microsoft Copilot (consumer) ====================
-# NOTHING BLOCKED HERE (changed 2026-11-06). copilot.microsoft.com and sydney.bing.com were removed because
-# Microsoft lists copilot.microsoft.com and the bing.com family as Copilot endpoints, and the unified
-# Microsoft Copilot app uses the same hosts for work (Entra) and personal (MSA) sign-in.
-# The consumer Copilot app has to be turned off by POLICY instead, not by this list:
-#   - Entra Tenant Restrictions v2: block MSA / consumer tenants (Microsoft's recommended control)
-#   - Edge policy: HubsSidebarEnabled = 0 (Edge sidebar Copilot) for unmanaged/consumer use
-#   - Intune/AppLocker: remove or block the consumer "Microsoft Copilot" Store app where not wanted
-#   - Windows: TurnOffWindowsCopilot / Copilot key remap policy
+# Microsoft Copilot
+# copilot.microsoft.com - not blocked, needed for M365 Copilot (GCC)
+# copilot.cloud.microsoft - not blocked, needed for M365 Copilot (GCC)
+# m365.cloud.microsoft - not blocked, needed for M365 Copilot (GCC)
+# sydney.bing.com - not blocked, needed for M365 Copilot (GCC)
+# bing.com - not blocked, needed for M365 Copilot (GCC)
+# cloud.microsoft - not blocked, needed for Microsoft 365
+# office.com - not blocked, needed for Microsoft 365
 
-# ==================== Microsoft 365 Copilot (GCC tenant) - intentionally NOT blocked ====================
-# Casey's org runs M365 Copilot / Copilot Chat ("Gov AI") in a Microsoft 365 GCC tenant. GCC uses the
-# Worldwide (+GCC) endpoint set. None of the hosts below may ever be added to this file:
-#   copilot.cloud.microsoft   - primary Copilot app URL; Microsoft requires it reachable (WSS too)
-#   m365.cloud.microsoft      - Microsoft 365 Copilot app / Copilot Chat (copilot.cloud.microsoft redirects here)
-#   cloud.microsoft (all subdomains) - endpoint set 184, Required; partial blocking is unsupported
-#   static.microsoft, usercontent.microsoft (all subdomains) - endpoint set 193, Required
-#   office.com (all subdomains), office.net, office365.com, sharepoint.com, outlook.com - core M365, Required
-#   substrate.office.com, graph.microsoft.com, login.microsoftonline.com, login.microsoft.com - Copilot sign-in/data
-#   copilot.microsoft.com     - listed by Microsoft for Copilot experiences; shared with consumer Copilot
-#   bing.com family incl. sydney.bing.com, www.bing.com, officespeech.platform.bing.com - Copilot web
-#       grounding (off by default in GCC; "Allow web search in Copilot" policy), dictation, ProPlus aux
-#   cortana.ai (all subdomains) - endpoint set 158, Required
-# Azure OpenAI / Azure Government: M365 Copilot runs inside Microsoft's service boundary - clients do not call
-# OpenAI hosts. openai.azure.com, openai.azure.us, azure.us, usgovcloudapi.net, microsoft.us are NOT in this
-# file, and the OpenAI entries above (openai.com, chatgpt.com, oai*) do not cover any of them.
-# Source: learn.microsoft.com - Microsoft Copilot requirements; Microsoft 365 URLs and IP address ranges
-# (Worldwide + GCC, endpoints.office.com); Copilot Chat in GCC (Tech Community, 2025-06); web search in Copilot.
-# Kept commented on purpose - do NOT uncomment (required by M365 Copilot in GCC):
-# copilot.cloud.microsoft
-
-# ==================== Meta AI ====================
-# Standalone meta.ai only. Meta AI inside Facebook, Instagram, WhatsApp and Messenger shares those apps' hosts.
+# Meta AI
+# facebook.com - not blocked, Facebook
 meta.ai
 www.meta.ai
 
-# ==================== xAI / Grok ====================
-# Grok inside X (x.com / twitter.com) shares X infrastructure and is NOT blocked here.
-# SHARED INFRA: Cursor sign-in is moving to xAI/SpaceX accounts (accounts.spacexsi.com, auth.grok.com,
-# auth.grokusercontent.com). Blocking grok.com / grokusercontent.com breaks Cursor sign-in.
+# xAI / Grok
+# x.com - not blocked, X / Twitter
 x.ai
 api.x.ai
 accounts.x.ai
@@ -125,14 +82,14 @@ assets.grokusercontent.com
 auth.grokusercontent.com
 grokipedia.com
 
-# ==================== Perplexity ====================
+# Perplexity
 perplexity.ai
 www.perplexity.ai
 api.perplexity.ai
 pplx.ai
 perplexity.com
 
-# ==================== DeepSeek ====================
+# DeepSeek
 deepseek.com
 www.deepseek.com
 chat.deepseek.com
@@ -140,28 +97,25 @@ api.deepseek.com
 platform.deepseek.com
 cdn.deepseek.com
 
-# ==================== Mistral (Le Chat) ====================
+# Mistral / Le Chat
 mistral.ai
 www.mistral.ai
 chat.mistral.ai
 api.mistral.ai
 console.mistral.ai
 
-# ==================== Character.AI ====================
+# Character.AI
 character.ai
 www.character.ai
 beta.character.ai
 neo.character.ai
 c.ai
 
-# ==================== Poe (Quora) ====================
-# SHARED INFRA: Poe is owned by Quora. quora.com is NOT blocked.
+# Poe
 poe.com
 www.poe.com
 
-# ==================== Hugging Face ====================
-# Blocks the whole Hub (models, datasets, Spaces, HuggingChat, Inference API). Will break pip/ML tooling
-# that downloads models from the Hub.
+# Hugging Face
 huggingface.co
 www.huggingface.co
 hf.co
@@ -170,17 +124,16 @@ router.huggingface.co
 cdn-lfs.huggingface.co
 hf.space
 
-# ==================== You.com ====================
+# You.com
 you.com
 www.you.com
 
-# ==================== Pi (Inflection AI) ====================
+# Pi / Inflection
 pi.ai
 www.pi.ai
 inflection.ai
 
-# ==================== Qwen / Tongyi (Alibaba) ====================
-# SHARED INFRA: tongyi.aliyun.com is under aliyun.com (Alibaba Cloud) - aliyun.com is NOT blocked.
+# Qwen / Tongyi
 qwen.ai
 chat.qwen.ai
 qwenlm.ai
@@ -189,7 +142,7 @@ tongyi.aliyun.com
 tongyi.com
 qianwen.aliyun.com
 
-# ==================== Kimi / Moonshot AI ====================
+# Kimi / Moonshot
 kimi.com
 www.kimi.com
 kimi.ai
@@ -199,7 +152,7 @@ moonshot.ai
 api.moonshot.ai
 platform.moonshot.ai
 
-# ==================== Groq / Together / Replicate / Stability (LLM + image APIs) ====================
+# Groq / Together / Replicate / Stability
 groq.com
 console.groq.com
 api.groq.com
@@ -209,7 +162,8 @@ replicate.com
 stability.ai
 platform.stability.ai
 
-# ==================== AI writing tools ====================
+# AI writing tools
+# grammarly.com - not blocked, common spell checker
 jasper.ai
 app.jasper.ai
 copy.ai
@@ -220,10 +174,8 @@ chatsonic.com
 quillbot.com
 www.quillbot.com
 rytr.me
-# Grammarly is widely used as a spell/grammar checker - uncomment only if you want it gone too.
-# grammarly.com
 
-# ==================== AI image / video tools ====================
+# AI image and video tools
 midjourney.com
 www.midjourney.com
 cdn.midjourney.com
@@ -237,9 +189,8 @@ pika.art
 ideogram.ai
 civitai.com
 craiyon.com
-# Midjourney still runs a Discord bot - discord.com is NOT blocked.
 
-# ==================== AI audio / voice / music ====================
+# AI audio and music tools
 elevenlabs.io
 api.elevenlabs.io
 11labs.io
@@ -249,13 +200,7 @@ studio-api.suno.ai
 udio.com
 www.udio.com
 
-# ====================================================================
-# OPTIONAL: AI coding assistants
-# Comment these out if developers on the network are allowed to use them.
-# ====================================================================
-
-# ---- Cursor ----
-# SHARED INFRA: Cursor sign-in now uses accounts.spacexsi.com + auth.grok.com (see xAI section).
+# Cursor (optional, coding)
 cursor.com
 www.cursor.com
 api.cursor.com
@@ -270,7 +215,7 @@ cursor-cdn.com
 cursorvm.com
 accounts.spacexsi.com
 
-# ---- Codeium / Windsurf ----
+# Codeium / Windsurf (optional, coding)
 codeium.com
 www.codeium.com
 server.codeium.com
@@ -279,26 +224,21 @@ www.windsurf.com
 server.self-serve.windsurf.com
 codeiumdata.com
 
-# ---- Tabnine ----
+# Tabnine (optional, coding)
 tabnine.com
 api.tabnine.com
 www.tabnine.com
 
-# ---- Replit ----
-# SHARED INFRA: blocking replit.com blocks ALL of Replit (IDE, hosting, deployed apps), not just the AI agent.
+# Replit (optional, coding)
 replit.com
 repl.co
 replit.app
 replit.dev
-# GitHub Copilot is NOT listed - its hosts sit under github.com / githubusercontent.com. Use GitHub org
-# policy to disable Copilot instead. (copilot-proxy.githubusercontent.com is the completion endpoint if you
-# want to test blocking it on its own.)
 
-# ====================================================================
+# GitHub Copilot (optional, coding)
+# copilot-proxy.githubusercontent.com - not blocked, part of GitHub
+
 # Anthropic / Claude
-# ====================================================================
-# Network admin: allow-policy for Cowork automation hosts above this block.
-# Anthropic egress range for reference: 160.79.104.0/21.
 anthropic.com
 www.anthropic.com
 api.anthropic.com
