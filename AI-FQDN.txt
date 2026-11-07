@@ -2,13 +2,14 @@
 # Purpose: block common generative-AI chat, API, writing, image/video/audio and coding services at the FortiGate.
 # Sources: vendor network/allowlist docs (OpenAI, Google Workspace, Cursor), Nullgen ai-blocklist (2026-10),
 #          amnahwaida Pi-hole AI hosts list (2026-03), Netskope/Zscaler/Fortinet community guidance.
-# Built: 2026-11-06  -  188 active FQDNs (146 core + 27 optional coding + 15 Anthropic/Claude).
+# Built: 2026-11-06  -  186 active FQDNs (144 core + 27 optional coding + 15 Anthropic/Claude).
+# Updated: 2026-11-06  -  M365 Copilot (GCC) hosts allowed - see "Microsoft 365 Copilot (GCC tenant)" note.
 # Published to GitHub TuckerNET/BLOCKLISTS as AI-FQDN.txt (manual push - not in the nightly CISAGitPush).
 #
 # Format: one FQDN per line, no wildcards, no URLs. Lines starting with # are comments.
 # FortiGate domain feeds match each entry EXACTLY (no implied subdomains), so the base domain
 # is listed together with the known working hosts under it.
-# Shared-infrastructure parents (google.com, googleapis.com, microsoft.com, bing.com, cloud.microsoft,
+# Shared-infrastructure parents (google.com, googleapis.com, microsoft.com, bing.com, cloud.microsoft, office.com,
 # facebook.com, x.com, twitter.com, github.com) are deliberately NOT listed - only AI-specific hosts.
 # NOTE: google.com / googleapis.com are on the CISA _domain_whitelist.txt. Do not run this file through
 #       CISAProcess or the whitelist filter or the Google hosts below will be stripped.
@@ -71,13 +72,34 @@ aiplatform.googleapis.com
 #   opa-pa.googleapis.com, opa-pa.clients6.google.com
 
 # ==================== Microsoft Copilot (consumer) ====================
-# Standalone Copilot site/app only. Copilot inside Word/Excel/Outlook/Teams, Edge sidebar and Windows uses
-# shared Microsoft 365 / Bing hosts - disable those with M365 admin, Edge (HubsSidebarEnabled) and Windows policy.
-copilot.microsoft.com
-sydney.bing.com
-# M365 Copilot (work accounts). Microsoft says *.cloud.microsoft must stay reachable and blocking
-# individual hosts under it is unsupported. Leave commented unless you intend to block M365 Copilot Chat
-# and have tested Outlook/Teams afterwards. m365.cloud.microsoft is the Microsoft 365 app home - do NOT add it.
+# NOTHING BLOCKED HERE (changed 2026-11-06). copilot.microsoft.com and sydney.bing.com were removed because
+# Microsoft lists copilot.microsoft.com and the bing.com family as Copilot endpoints, and the unified
+# Microsoft Copilot app uses the same hosts for work (Entra) and personal (MSA) sign-in.
+# The consumer Copilot app has to be turned off by POLICY instead, not by this list:
+#   - Entra Tenant Restrictions v2: block MSA / consumer tenants (Microsoft's recommended control)
+#   - Edge policy: HubsSidebarEnabled = 0 (Edge sidebar Copilot) for unmanaged/consumer use
+#   - Intune/AppLocker: remove or block the consumer "Microsoft Copilot" Store app where not wanted
+#   - Windows: TurnOffWindowsCopilot / Copilot key remap policy
+
+# ==================== Microsoft 365 Copilot (GCC tenant) - intentionally NOT blocked ====================
+# Casey's org runs M365 Copilot / Copilot Chat ("Gov AI") in a Microsoft 365 GCC tenant. GCC uses the
+# Worldwide (+GCC) endpoint set. None of the hosts below may ever be added to this file:
+#   copilot.cloud.microsoft   - primary Copilot app URL; Microsoft requires it reachable (WSS too)
+#   m365.cloud.microsoft      - Microsoft 365 Copilot app / Copilot Chat (copilot.cloud.microsoft redirects here)
+#   cloud.microsoft (all subdomains) - endpoint set 184, Required; partial blocking is unsupported
+#   static.microsoft, usercontent.microsoft (all subdomains) - endpoint set 193, Required
+#   office.com (all subdomains), office.net, office365.com, sharepoint.com, outlook.com - core M365, Required
+#   substrate.office.com, graph.microsoft.com, login.microsoftonline.com, login.microsoft.com - Copilot sign-in/data
+#   copilot.microsoft.com     - listed by Microsoft for Copilot experiences; shared with consumer Copilot
+#   bing.com family incl. sydney.bing.com, www.bing.com, officespeech.platform.bing.com - Copilot web
+#       grounding (off by default in GCC; "Allow web search in Copilot" policy), dictation, ProPlus aux
+#   cortana.ai (all subdomains) - endpoint set 158, Required
+# Azure OpenAI / Azure Government: M365 Copilot runs inside Microsoft's service boundary - clients do not call
+# OpenAI hosts. openai.azure.com, openai.azure.us, azure.us, usgovcloudapi.net, microsoft.us are NOT in this
+# file, and the OpenAI entries above (openai.com, chatgpt.com, oai*) do not cover any of them.
+# Source: learn.microsoft.com - Microsoft Copilot requirements; Microsoft 365 URLs and IP address ranges
+# (Worldwide + GCC, endpoints.office.com); Copilot Chat in GCC (Tech Community, 2025-06); web search in Copilot.
+# Kept commented on purpose - do NOT uncomment (required by M365 Copilot in GCC):
 # copilot.cloud.microsoft
 
 # ==================== Meta AI ====================
