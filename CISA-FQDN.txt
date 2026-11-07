@@ -1,9 +1,8 @@
-# Heartbeat 2026-11-06 11:30 UTC - 0 new indicator(s); list unchanged.
 # CISA / MS-ISAC domain block list - AUTO-GENERATED, do not hand-edit.
 # Sources: cti-lists 30-day feed + forwarded MS-ISAC CSVs. Retention: 90 days since last seen.
-# Rebuilt: 2026-11-06 03:15  -  7390 active domain.
+# Rebuilt: 2026-11-07 03:15  -  7390 active domain.
 
-# 2026-11-06 03:15  -  1401 domain(s)
+# 2026-11-07 03:15  -  1401 domain(s)
 002nz.sbs
 030087551.shop
 043s9eql3fy7j3a6.royalshippingbd.com
@@ -5734,7 +5733,6 @@ www.ahakene.com
 www.auditly.xyz
 www.cauti.us
 www.chamberadvertisers.com
-www.cognitoforms.com
 www.dhlpharmac.shop
 www.dmlinks.xyz
 www.elfnpttbqypw.top
