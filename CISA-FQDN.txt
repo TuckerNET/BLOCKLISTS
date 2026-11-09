@@ -1,8 +1,8 @@
 # CISA / MS-ISAC domain block list - AUTO-GENERATED, do not hand-edit.
 # Sources: cti-lists 30-day feed + forwarded MS-ISAC CSVs. Retention: 90 days since last seen.
-# Rebuilt: 2026-11-08 03:15  -  7130 active domain.
+# Rebuilt: 2026-11-09 03:15  -  7079 active domain.
 
-# 2026-11-08 03:15  -  1401 domain(s)
+# 2026-11-09 03:15  -  1401 domain(s)
 002nz.sbs
 030087551.shop
 043s9eql3fy7j3a6.royalshippingbd.com
@@ -7124,60 +7124,9 @@ zkgeaxbs.nextbahis.promo
 zwydarcig.adsbln1.xyz
 zxpimegb.bingobet.bingo
 
-# IPs Domains and URLs of Interest 2026-08-02 to 2026-08-08 - TLP AMBER  -  56 domain(s)
-0ljj-qpbl-opog-593ec.b-cdn.net
-aalzntp.vu
-accounts.comloghub.icu
-accounts.flcld.online
-anglecv.surf
-app.mijkf.info
-appex-wyxe.vu
-axoshealthcare.com
-azurhay.shop
+# IPs Domains and URLs of Interest 2026-08-02 to 2026-08-08 - TLP AMBER  -  5 domain(s)
 belvora.vu
-borismuratov.screenconnect.com
-brigne.top
-cecrot.xyz
-check.hiazp.vu
 dictanote.co
-docureview.info
 dub.sh
-encrypteddocumentsandfilessharing.eastoroot.com.de
-epavm.vu
-etrecruitment.com.au
-exuviai.cloud
 falnico.vu
-frpath.top
-happybondcard.cam
-hotaccents.com
-incalculable101.skylineepath.cc
-invitation-to-bid-proposal-dtaq.w-qo3azl.workers.dev
-joventa.vu
-maxhealthinsadvantage.com
-oust279.larksthouse.com
-pisiyor.space
-powwowavents.cc
-ruhrvr.xyz
-sahalexchange.com
-smarwth.biz
-solidgma.biz
-stirring-trifle-19709e.netlify.app
-storyflow.so
-sxarth.click
 t.me
-teaspor.cloud
-texapparel.net
-toeday.click
-topxgax.click
-tyxa.today
-uiccvbk.click
-vifroup.biz
-vipentry.help
-vypinshipyard.com
-web.plaud.ai
-wiliness620.signalhouse.co.nl
-with-hypergolic.com
-wrys-64tm-397k.tmowbre-pacifiefc-ca-s-account.workers.dev
-wzq0-xtex-ndti.wobage9149-jobraux-com-s-account.workers.dev
-xteyk0vgvmmpeplayaudio.twistcapital.cc
-zokrie.click
