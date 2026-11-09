@@ -1,7 +1,7 @@
 # CISA / MS-ISAC domain block list - AUTO-GENERATED, do not hand-edit.
 # Sources: cti-lists 30-day feed + forwarded MS-ISAC CSVs. Retention: 90 days since last seen.
 # Rebuilt: 2026-11-09 03:15  -  7079 active domain.
-34.41.139.193
+
 # 2026-11-09 03:15  -  1401 domain(s)
 002nz.sbs
 030087551.shop
