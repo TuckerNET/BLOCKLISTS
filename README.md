@@ -26,6 +26,8 @@ security tooling.
 | `Urgent-IP.txt`   | IP     | Rapid-response, temporary indicators tied to active or emerging threats. Short-lived; reviewed and pruned regularly. |
 | `Urgent-FQDN.txt` | Domain | Rapid-response, temporary domain indicators tied to active or emerging threats. Short-lived; reviewed and pruned regularly. |
 | `Ads-FQDN.txt`   | Domain | Curated ads, tracking and malicious-domain blocklist (HaGeZi Pro + TIF, allowlist-filtered); rebuilt daily. |
+| `ABUSE-INTEL-IP.txt`   | IP     | Self-aging threat-intel indicators from abuse.ch (ThreatFox/Feodo); 90-day rotation escalating to 180/365 for repeat offenders; rebuilt daily. |
+| `ABUSE-INTEL-FQDN.txt` | Domain | Self-aging threat-intel indicators from abuse.ch (ThreatFox/Feodo); 90-day rotation escalating to 180/365 for repeat offenders; rebuilt daily. |
 
 ## Usage
 
