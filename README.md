@@ -25,6 +25,7 @@ security tooling.
 | `AI-FQDN.txt`     | Domain | Domains for public generative-AI and large-language-model services, for environments that restrict their use. |
 | `Urgent-IP.txt`   | IP     | Rapid-response, temporary indicators tied to active or emerging threats. Short-lived; reviewed and pruned regularly. |
 | `Urgent-FQDN.txt` | Domain | Rapid-response, temporary domain indicators tied to active or emerging threats. Short-lived; reviewed and pruned regularly. |
+| `Ads-FQDN.txt`   | Domain | Curated ads, tracking and malicious-domain blocklist (HaGeZi Pro + TIF, allowlist-filtered); rebuilt daily. |
 
 ## Usage
 
