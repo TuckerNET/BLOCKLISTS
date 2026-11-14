@@ -1,6 +1,18 @@
-# This list is used for urgent attacks and issues seen and should be used as a temp/quick addition to firewall and DNS filtering rules.
+# =====================================================================
+#  URGENT BLOCKLIST  -  IP INDICATORS
+# ---------------------------------------------------------------------
+#  Rapid-response indicators tied to active attacks and emerging threats
+#  observed in-environment. Treat these as TEMPORARY, high-priority
+#  additions to firewall and DNS filtering policy: applied quickly, ahead
+#  of the standard curated feeds, and pruned once the threat is contained
+#  or promoted to a permanent list.
 #
-# 2026-11-14 - ScreenConnect hack. Reference (do NOT block this URL): https://cybersecuritynews.com/connectwise-screenconnect-hijacked/
+#  Each indicator sits under a dated incident block recording when and why
+#  it was added. Lines beginning with '#' are comments and are not enforced.
+# =====================================================================
+
+# 2026-11-14  -  ScreenConnect (ConnectWise) compromise
+#   Context only, do NOT block: https://cybersecuritynews.com/connectwise-screenconnect-hijacked/
 185.99.255.28
 155.94.150.39
 86.106.143.249
