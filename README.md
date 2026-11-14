@@ -21,7 +21,7 @@ security tooling.
 | `CISA-FQDN.txt`   | Domain | Malicious or suspicious domains referenced in public cybersecurity advisories and threat bulletins. |
 | `OSINT-IP.txt`    | IP     | Suspicious and malicious IP addresses aggregated from open-source threat-intelligence feeds. |
 | `TOR-IP.txt`      | IP     | Tor network relay and exit-node addresses, for environments that restrict anonymized traffic. |
-| `VPN-IP.txt`      | IP     | Address space associated with commercial VPN, proxy, and anonymization services. |
+| `VPN-IP.txt`      | IP     | IP addresses observed making unauthorized or suspicious VPN and remote-access login attempts. |
 | `AI-FQDN.txt`     | Domain | Domains for public generative-AI and large-language-model services, for environments that restrict their use. |
 | `Urgent-IP.txt`   | IP     | Rapid-response, temporary indicators tied to active or emerging threats. Short-lived; reviewed and pruned regularly. |
 | `Urgent-FQDN.txt` | Domain | Rapid-response, temporary domain indicators tied to active or emerging threats. Short-lived; reviewed and pruned regularly. |
