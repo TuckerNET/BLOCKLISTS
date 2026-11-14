@@ -1,3 +1,6 @@
+# This list is used for urgent attacks and issues seen and should be used as a temp/quick addition to firewall and DNS filtering rules.
+#
+# 2026-11-14 - ScreenConnect hack. Reference (do NOT block this URL): https://cybersecuritynews.com/connectwise-screenconnect-hijacked/
 newnewnew.gotdns.org
 soxnewwork.homedns.org
 cdn007-digitaldownloads.com
