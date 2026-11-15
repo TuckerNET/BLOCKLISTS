@@ -17,3 +17,14 @@
 155.94.150.39
 86.106.143.249
 144.126.149.104
+
+
+# 2026-11-14 - GitHub hijacked-accounts CI/CD abuse campaign (4,837 compromised accounts / secrets-stealing malware). Ref: https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html
+194.150.166.244
+18.143.168.96
+153.75.82.159
+
+# 2026-11-14 - N-able N-central exploitation (actively exploited flaws, crypto-miner deployment). Ref: https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html
+157.20.241.16
+139.99.69.109
+79.76.51.56
