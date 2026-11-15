@@ -28,3 +28,7 @@
 157.20.241.16
 139.99.69.109
 79.76.51.56
+
+
+# 2026-11-14 - Typosquat fake-AI-service 'typoprompting' campaign (lookalike AI domains redirecting to malware). Refs: https://www.island.io/blog/typoprompting-from-ai-typos-to-malware ; https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html
+185.138.88.3
