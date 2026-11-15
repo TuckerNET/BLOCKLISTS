@@ -40,3 +40,14 @@
 # 2026-11-14 - GeoVision camera software malware
 45.32.117.34
 156.246.94.183
+
+
+# 2026-11-15 - Huntress-reported campaigns (ScreenConnect fake crypto-exchange + GeoVision XMRig)
+#   ScreenConnect fake crypto-exchange sessions (IONOS VPS, main source)
+74.208.158.106
+#   ScreenConnect fake crypto-exchange sessions (first sessions)
+197.47.160.252
+#   ScreenConnect campaign related IONOS host
+87.106.111.220
+#   GeoVision XMRig, likely exploitation source
+2.59.133.151
