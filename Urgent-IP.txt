@@ -32,3 +32,11 @@
 
 # 2026-11-14 - Typosquat fake-AI-service 'typoprompting' campaign (lookalike AI domains redirecting to malware). Refs: https://www.island.io/blog/typoprompting-from-ai-typos-to-malware ; https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html
 185.138.88.3
+
+
+# 2026-11-14 - Linux backdoor hidden in Control Web Panel. Ref: https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html
+136.0.141.71
+
+# 2026-11-14 - GeoVision camera software malware
+45.32.117.34
+156.246.94.183
