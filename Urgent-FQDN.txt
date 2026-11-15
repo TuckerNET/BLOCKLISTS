@@ -54,3 +54,7 @@ midj0urney.org
 xml.securetrackingnode.com
 biomimicrydevtech.buzz
 blockchainfuturedev.buzz
+
+
+# 2026-11-14 - Impersonation / fake download site for x64dbg (NOT the official project; real site is x64dbg.com). Trojanized-installer lookalike, same pattern as the Notepad++ fake-site case.
+x64dbg.org
