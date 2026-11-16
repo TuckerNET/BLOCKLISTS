@@ -51,3 +51,8 @@
 87.106.111.220
 #   GeoVision XMRig, likely exploitation source
 2.59.133.151
+
+
+# 2026-11-16 - Bo Team exploiting Log4Shell in VMware. Ref: https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html
+193.3.23.236
+80.76.42.139
