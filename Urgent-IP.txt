@@ -60,3 +60,7 @@
 
 # 2026-11-17 - Trigram campaign impersonating ~50 brands. Ref: https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html
 170.205.30.27
+
+
+# 2026-11-17 - ConnectWise ScreenConnect attacks (vendor warning). Ref: https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html
+185.241.211.197
