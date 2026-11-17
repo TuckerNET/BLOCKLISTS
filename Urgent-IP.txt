@@ -56,3 +56,7 @@
 # 2026-11-16 - Bo Team exploiting Log4Shell in VMware. Ref: https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html
 193.3.23.236
 80.76.42.139
+
+
+# 2026-11-17 - Trigram campaign impersonating ~50 brands. Ref: https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html
+170.205.30.27
