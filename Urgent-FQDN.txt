@@ -11,12 +11,13 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
-# 2026-11-14  -  ScreenConnect (ConnectWise) compromise
-#   Context only, do NOT block: https://cybersecuritynews.com/connectwise-screenconnect-hijacked/
-newnewnew.gotdns.org
-soxnewwork.homedns.org
-cdn007-digitaldownloads.com
-ns.mo7sen.dev
+
+# 2026-11-17 - Hijacked Optimizely scripts serving card skimmer (Magecart). Ref: https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html
+1688360.cc
+
+
+# 2026-11-14 - Impersonation / fake download site for x64dbg (NOT the official project; real site is x64dbg.com). Trojanized-installer lookalike, same pattern as the Notepad++ fake-site case.
+x64dbg.org
 
 
 # 2026-11-14 - Typosquat fake-AI-service 'typoprompting' campaign (lookalike AI domains redirecting to malware). Refs: https://www.island.io/blog/typoprompting-from-ai-typos-to-malware ; https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html
@@ -55,10 +56,9 @@ xml.securetrackingnode.com
 biomimicrydevtech.buzz
 blockchainfuturedev.buzz
 
-
-# 2026-11-14 - Impersonation / fake download site for x64dbg (NOT the official project; real site is x64dbg.com). Trojanized-installer lookalike, same pattern as the Notepad++ fake-site case.
-x64dbg.org
-
-
-# 2026-11-17 - Hijacked Optimizely scripts serving card skimmer (Magecart). Ref: https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html
-1688360.cc
+# 2026-11-14  -  ScreenConnect (ConnectWise) compromise
+#   Context only, do NOT block: https://cybersecuritynews.com/connectwise-screenconnect-hijacked/
+newnewnew.gotdns.org
+soxnewwork.homedns.org
+cdn007-digitaldownloads.com
+ns.mo7sen.dev
