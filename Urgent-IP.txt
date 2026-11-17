@@ -11,35 +11,18 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
-# 2026-11-14  -  ScreenConnect (ConnectWise) compromise
-#   Context only, do NOT block: https://cybersecuritynews.com/connectwise-screenconnect-hijacked/
-185.99.255.28
-155.94.150.39
-86.106.143.249
-144.126.149.104
+
+# 2026-11-17 - ConnectWise ScreenConnect attacks (vendor warning). Ref: https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html
+185.241.211.197
 
 
-# 2026-11-14 - GitHub hijacked-accounts CI/CD abuse campaign (4,837 compromised accounts / secrets-stealing malware). Ref: https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html
-194.150.166.244
-18.143.168.96
-153.75.82.159
-
-# 2026-11-14 - N-able N-central exploitation (actively exploited flaws, crypto-miner deployment). Ref: https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html
-157.20.241.16
-139.99.69.109
-79.76.51.56
+# 2026-11-17 - Trigram campaign impersonating ~50 brands. Ref: https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html
+170.205.30.27
 
 
-# 2026-11-14 - Typosquat fake-AI-service 'typoprompting' campaign (lookalike AI domains redirecting to malware). Refs: https://www.island.io/blog/typoprompting-from-ai-typos-to-malware ; https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html
-185.138.88.3
-
-
-# 2026-11-14 - Linux backdoor hidden in Control Web Panel. Ref: https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html
-136.0.141.71
-
-# 2026-11-14 - GeoVision camera software malware
-45.32.117.34
-156.246.94.183
+# 2026-11-16 - Bo Team exploiting Log4Shell in VMware. Ref: https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html
+193.3.23.236
+80.76.42.139
 
 
 # 2026-11-15 - Huntress-reported campaigns (ScreenConnect fake crypto-exchange + GeoVision XMRig)
@@ -52,15 +35,32 @@
 #   GeoVision XMRig, likely exploitation source
 2.59.133.151
 
-
-# 2026-11-16 - Bo Team exploiting Log4Shell in VMware. Ref: https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html
-193.3.23.236
-80.76.42.139
-
-
-# 2026-11-17 - Trigram campaign impersonating ~50 brands. Ref: https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html
-170.205.30.27
+# 2026-11-14 - GeoVision camera software malware
+45.32.117.34
+156.246.94.183
 
 
-# 2026-11-17 - ConnectWise ScreenConnect attacks (vendor warning). Ref: https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html
-185.241.211.197
+# 2026-11-14 - Linux backdoor hidden in Control Web Panel. Ref: https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html
+136.0.141.71
+
+
+# 2026-11-14 - Typosquat fake-AI-service 'typoprompting' campaign (lookalike AI domains redirecting to malware). Refs: https://www.island.io/blog/typoprompting-from-ai-typos-to-malware ; https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html
+185.138.88.3
+
+# 2026-11-14 - N-able N-central exploitation (actively exploited flaws, crypto-miner deployment). Ref: https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html
+157.20.241.16
+139.99.69.109
+79.76.51.56
+
+
+# 2026-11-14 - GitHub hijacked-accounts CI/CD abuse campaign (4,837 compromised accounts / secrets-stealing malware). Ref: https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html
+194.150.166.244
+18.143.168.96
+153.75.82.159
+
+# 2026-11-14  -  ScreenConnect (ConnectWise) compromise
+#   Context only, do NOT block: https://cybersecuritynews.com/connectwise-screenconnect-hijacked/
+185.99.255.28
+155.94.150.39
+86.106.143.249
+144.126.149.104
