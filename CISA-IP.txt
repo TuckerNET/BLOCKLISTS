@@ -1,3 +1,13 @@
+# =====================================================================
+#  CISA-IP  -  combined IP blocklist
+#  Sources: CISA advisory indicators + Adlumin Shield threat feed
+#  (Adlumin Shield: https://shield.adlumin.com/ip_indicators.txt).
+#  CISA advisory IPs : 1407
+#  Adlumin Shield IPs: 12746
+#  TOTAL blocked IPs : 14153
+#  Generated 2026-11-18 06:57. The Adlumin section is labeled further down this file.
+# =====================================================================
+
 # CISA / MS-ISAC IP block list - AUTO-GENERATED, do not hand-edit.
 # Sources: cti-lists 30-day feed + forwarded MS-ISAC CSVs. Retention: 90 days since last seen, escalating to 180 then 365 on repeat appearance.
 # Rebuilt: 2026-11-18 03:15  -  1407 active IP.
@@ -14212,3 +14222,4 @@
 195.184.76.169
 91.228.52.211
 190.60.4.215
+
