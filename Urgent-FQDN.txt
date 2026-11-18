@@ -11,6 +11,23 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-18 - GootLoader C2 / payload hosts (Darktrace). Ref: https://www.darktrace.com/blog/gootloader-malware-detecting-and-containing-multi-functional-threats-with-darktrace
+explorer.ee
+fysiotherapie-panken.nl
+devcxp2019.theclearingexperience.com
+campsite.bplaced.net
+coup2pompes.fr
+#   possible C2:
+analyzetest.ir
+tdgroup.ru
+ciedespuys.com
+fi.sexydate.world
+funadhoo.gov.mv
+geying.qiwufeng.com
+goodcomix.fun
+#   possible payload download host:
+ftp2.sim-networks.com
+
 # 2026-11-18 - Unit 42: PerfectPioneer RAT C2 / SE Asia RAT campaign
 ads-edge.com
 www.thailisting.net
