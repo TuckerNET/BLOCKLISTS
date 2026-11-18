@@ -11,6 +11,51 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-18 - Huntress: ScreenConnect CVE-2026-84869 exploitation (exploit-sprayer IPs unless noted)
+#   masterdarky relay IP:
+194.15.36.33
+162.35.40.249
+64.20.44.120
+103.195.102.66
+103.195.102.76
+199.127.60.150
+199.127.62.58
+181.215.242.106
+162.35.167.105
+23.92.65.131
+23.94.77.110
+198.23.165.181
+107.173.186.58
+50.114.203.14
+38.18.228.165
+66.118.239.23
+74.235.98.176
+172.81.61.149
+178.173.246.85
+154.30.4.248
+107.148.223.103
+103.195.100.70
+103.195.100.69
+38.18.229.249
+98.142.247.243
+45.13.233.32
+38.18.228.173
+199.127.60.149
+#   pushed svc_payload.cmd:
+107.148.223.37
+#   Startup traversal pusher:
+57.128.131.66
+
+# 2026-11-18 - Unit 42: PerfectPioneer/KUKURAT RATs (SE Asia gov)
+27.254.164.212
+27.254.164.209
+
+# 2026-11-18 - Talos: UAT-12643 staging server
+41.216.188.11
+
+# 2026-11-18 - Fake Exchange Online alert phish (open-tracking IP)
+162.120.17.69
+
 # 2026-11-17 - Hijacked Optimizely scripts serving card skimmer (Magecart). Ref: https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html
 136.113.106.136
 
