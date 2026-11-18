@@ -11,6 +11,9 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-17 - Hijacked Optimizely scripts serving card skimmer (Magecart). Ref: https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html
+136.113.106.136
+
 
 # 2026-11-17 - ConnectWise ScreenConnect attacks (vendor warning). Ref: https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html
 185.241.211.197
