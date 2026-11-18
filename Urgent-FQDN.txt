@@ -11,6 +11,19 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-18 - Unit 42: PerfectPioneer RAT C2 / SE Asia RAT campaign
+ads-edge.com
+www.thailisting.net
+www.sacofficegov.com
+
+# 2026-11-18 - Fake Exchange Online alert phish (sender / tracking / redirect)
+moments-notice.com
+em4493.moments-notice.com
+u113727626.ct.sendgrid.net
+u118250677.ct.sendgrid.net
+u118254266.ct.sendgrid.net
+okmjoqzhle.klavontrix.com
+
 # 2026-11-17 - Ah-San Stealer panel / infrastructure. Ref: https://amirulcyber.com/2026/11/12/ah-san-stealer-panel/
 wheiulmra.work
 biaoisdiu.work
