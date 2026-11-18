@@ -11,6 +11,13 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-17 - Ah-San Stealer panel / infrastructure. Ref: https://amirulcyber.com/2026/11/12/ah-san-stealer-panel/
+wheiulmra.work
+biaoisdiu.work
+cheulmri.work
+cheulmri.link
+cajefez.club
+
 
 # 2026-11-17 - Hijacked Optimizely scripts serving card skimmer (Magecart). Ref: https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html
 1688360.cc
@@ -65,4 +72,3 @@ newnewnew.gotdns.org
 soxnewwork.homedns.org
 cdn007-digitaldownloads.com
 ns.mo7sen.dev
-
