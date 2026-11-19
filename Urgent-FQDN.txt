@@ -11,6 +11,37 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-19 - BADBOX 3.0 / PXYEDGE infrastructure
+api.pixelpioneerss.com
+bur.thedynamicleap.com
+adv.speed25.top
+api.shzhtxcz.com
+
+# 2026-11-19 - HavoX/Phantom53 infostealer op (US bank/IRS credential theft) - C2 fronts (Cloudflare Workers)
+3k7d7v5hn.workers.dev
+bog1hav1ged3-1jtn.workers.dev
+busykifukek2-8psk.workers.dev
+fep0bupuhag2-o0kk.workers.dev
+fypahedupal2-0maz.workers.dev
+j1nanyd1jot2-lwml.workers.dev
+l0mad1fugiv2-7mtj.workers.dev
+nelol0k0tys3-jbne.workers.dev
+sekolonozus3-erij.workers.dev
+tej0kygaj0g3-tad7.workers.dev
+vajowigus0p3-yw4k.workers.dev
+zetogebuw1s2-5hzu.workers.dev
+
+# 2026-11-19 - Kimsuky-linked XenoRAT/NodeLinkRAT C2 (aNotepad campaign)
+nid.weffm.p-e.kr
+inmain.22web.org
+
+# 2026-11-19 - M365 device-code phishing lures
+9l2v3vupv5.synerghylnksloads.cfd
+ngjedt0xrv.promtateusachorloadscorp.sbs
+tgg5rqrdcb.synerghylnksloads.cfd
+base-hub-yw7q.p-xxorevv8.workers.dev
+5txpm30dqe.krointechbillpaycheckingusalexingto.sbs
+
 # 2026-11-18 - GootLoader C2 / payload hosts (Darktrace). Ref: https://www.darktrace.com/blog/gootloader-malware-detecting-and-containing-multi-functional-threats-with-darktrace
 explorer.ee
 fysiotherapie-panken.nl
