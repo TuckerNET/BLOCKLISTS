@@ -11,6 +11,17 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-19 - BADBOX 3.0 / PXYEDGE - additional IoCs (drgdj.top backdoor infra, ad-fraud/tasking, storefront)
+drgdj.top
+api.drgdj.top
+file.drgdj.top
+gh.drgdj.top
+pxyedge.com
+ad3g.com
+moyu88.xyz
+ziyemy.shop
+terrtest.oss-cn-hangzhou.aliyuncs.com
+
 # 2026-11-19 - BADBOX 3.0 / PXYEDGE infrastructure
 api.pixelpioneerss.com
 bur.thedynamicleap.com
