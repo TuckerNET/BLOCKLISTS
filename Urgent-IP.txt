@@ -11,6 +11,44 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-19 - BADBOX 3.0 / PXYEDGE infrastructure
+#   PXYEDGE servers:
+129.227.67.234
+128.14.141.107
+128.14.201.106
+128.14.207.34
+128.14.207.18
+107.151.239.17
+107.151.248.132
+128.14.209.54
+128.14.210.58
+128.14.211.172
+165.154.199.119
+165.154.202.29
+165.154.239.242
+165.154.254.58
+199.190.45.202
+23.251.108.30
+80.209.241.40
+#   C2 / downloader:
+47.113.90.237
+39.108.226.196
+47.106.197.183
+
+# 2026-11-19 - HavoX/Phantom53 infostealer op (US bank/IRS credential theft)
+#   Kraken panel:
+146.70.24.172
+#   data-theft endpoint:
+66.165.246.77
+#   main loot server:
+145.63.138.67
+
+# 2026-11-19 - Kimsuky-linked XenoRAT/NodeLinkRAT C2 (aNotepad campaign)
+103.81.116.10
+207.148.112.166
+185.27.134.207
+185.27.134.120
+
 # 2026-11-18 - Huntress: ScreenConnect CVE-2026-84869 exploitation (exploit-sprayer IPs unless noted)
 #   masterdarky relay IP:
 194.15.36.33
