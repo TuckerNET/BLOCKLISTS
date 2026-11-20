@@ -11,6 +11,12 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-20 - Romulus ClickFix attacks delivering RAT. Ref: https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html
+orders-amazon.com.advancedfences.com
+veriffication-redirect.com
+login.microsoftofice.cz
+updates.howclens.com
+
 # 2026-11-19 - BADBOX 3.0 / PXYEDGE - additional IoCs (drgdj.top backdoor infra, ad-fraud/tasking, storefront)
 drgdj.top
 api.drgdj.top
