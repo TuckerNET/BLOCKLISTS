@@ -11,6 +11,10 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-20 - Hackers exploiting critical Cisco flaw. Ref: https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html
+66.179.31.32
+18.130.47.116
+
 # 2026-11-19 - BADBOX 3.0 / PXYEDGE infrastructure
 #   PXYEDGE servers:
 129.227.67.234
