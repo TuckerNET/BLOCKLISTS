@@ -11,6 +11,24 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-20 - SLAICLIND campaign additional C2 domains (Stormshield IOC table). Ref: https://www.stormshield.com/news/cti-payload-slaiclind-campaign/
+windowsdiag-service.pw
+univesalcheckrobot.site
+imersion4cf.site
+flarecloudcheck.site
+chekcms432.cc
+checkrobotbb.pw
+checkmybtrobot.cc
+checkms5.cc
+checkmrobot.site
+checkdvvc99.cc
+checkcloudflere.site
+cf-check.site
+api-relay.cc
+allowcsxan2.site
+allowcheckd3.cc
+checkvbbrows39.cc
+
 # 2026-11-20 - SLAICLIND campaign C2 domains (hosted on 78.40.198.82). Ref: https://www.stormshield.com/news/cti-payload-slaiclind-campaign/
 botcheck-cf.top
 checkbot-cf.site
