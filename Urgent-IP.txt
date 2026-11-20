@@ -11,6 +11,9 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-20 - SLAICLIND campaign additional C2 (stealer beacon). Ref: https://www.stormshield.com/news/cti-payload-slaiclind-campaign/
+195.63.139.180
+
 # 2026-11-20 - SLAICLIND campaign C2 (hosts botcheck-cf.top / checkbot-cf.site). Ref: https://www.stormshield.com/news/cti-payload-slaiclind-campaign/
 78.40.198.82
 
