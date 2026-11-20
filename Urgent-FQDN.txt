@@ -11,6 +11,11 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-20 - CyberLeek (fake GTA 6 launcher) + BankWeaver payload hosting
+cyberleekland.com
+api.cyberleek.link
+plainraw.sh
+
 # 2026-11-20 - STAC4924 campaign (TerminalFix / Lorem Ipsum Loader, Sophos). Ref: https://www.sophos.com/en-us/blog/terminalfix-and-lorem-ipsum-loader-enable-covert-tunneling
 #   C2 servers:
 webfeedonline.com
