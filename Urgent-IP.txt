@@ -11,6 +11,9 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-20 - BankWeaver (Temenos) payload hosting (Forescout via CSN)
+37.187.78.41
+
 # 2026-11-20 - Hackers exploiting critical Cisco flaw. Ref: https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html
 66.179.31.32
 18.130.47.116
