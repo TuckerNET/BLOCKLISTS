@@ -11,6 +11,65 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-20 - STAC4924 campaign (TerminalFix / Lorem Ipsum Loader, Sophos). Ref: https://www.sophos.com/en-us/blog/terminalfix-and-lorem-ipsum-loader-enable-covert-tunneling
+#   C2 servers:
+webfeedonline.com
+fish-planet.online
+forest-pet.com
+yellow-tree.online
+cave-discovery.online
+bestsocialmedianewspapper.com
+fixdocumentview.com
+offlineupdater.com
+opendocumentnowforfree.com
+openlockeddocuments.com
+ourpersonalsecurity.com
+viewpublicdocuments.com
+yourappdoctor.com
+yourprettylittlepicture.com
+firstapphelp.com
+goodfoodrecipients.com
+languageupgrader.com
+biblegodlike.com
+valueurban.com
+graburban.com
+documentthis.art
+peekyourphoto.com
+topphotoalbum.com
+newpopularimages.com
+opendocumentonline.com
+editdocumentfree.com
+bestpopularimages.com
+documentsphotos.com
+openpdfanywhere.com
+openandopen.com
+lookforimages.com
+freeshareyourimage.com
+freecatimages.com
+imageuploaderfree.com
+sharingclick.com
+searchdocumentsfree.com
+openanyworddocument.com
+kittyfreespace.com
+oceansecretlife.com
+grapesinlife.com
+capturethes.com
+loginrestforest.com
+reeeeealy.com
+semigoddess.com
+imagethere.info
+placebetweenphotos.us
+openimagesworld.us
+#   staging servers:
+ghostproc.com
+assetsoftgo.com
+autorelaylab.com
+adstatli.com
+metricgw.com
+platformco-hub.com
+swiftcurrento.net
+cronverta.net
+
 # 2026-11-20 - Romulus ClickFix attacks delivering RAT. Ref: https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html
 orders-amazon.com.advancedfences.com
 veriffication-redirect.com
