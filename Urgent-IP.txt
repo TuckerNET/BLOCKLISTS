@@ -11,6 +11,9 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-21 - Com/ShinyHunters vishing: accessed compromised accounts (Unit 42)
+193.149.176.62
+
 # 2026-11-20 - SLAICLIND campaign additional C2 (stealer beacon). Ref: https://www.stormshield.com/news/cti-payload-slaiclind-campaign/
 195.63.139.180
 
