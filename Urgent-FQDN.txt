@@ -11,6 +11,32 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-23 - ClickFix LOM kit - payload/tracking + Cloudflare-lookalike lures
+mlroweb.com
+escapeai.live
+cloudflare-protect.net
+get-verification.to
+cloudflare.bz
+get-entry.to
+
+# 2026-11-23 - ClickFix kit 2 (ErrTraffic overlap) - next-stage hosts
+cloudyredirect.online
+webpageclouds.online
+
+# 2026-11-23 - RevStealer (fake Claude desktop app) infra
+mail0.runport23.lat
+content.brightplaza.lat
+elitecheatsx.live
+health.journal-metric.lol
+config.hubdisplay.lol
+
+# 2026-11-23 - Vmcloudoor Linux backdoor - C2 buckets (exact FQDN only; shared Alibaba OSS hosts)
+top-sec.oss-cn-beijing.aliyuncs.com
+assist-logs.oss-accelerate.aliyuncs.com
+
+# 2026-11-23 - BabidiGhost AI-agent intrusion - hijacked staging server (legit host on hosteur.net, may be cleaned up)
+cloud-z80lft07.hosteur.net
+
 # 2026-11-21 - Com/ShinyHunters vishing: fake MFA/passkey/SSO lure domains (Unit 42)
 add-mfa.com
 login-options.com
