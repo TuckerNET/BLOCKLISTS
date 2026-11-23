@@ -11,6 +11,25 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-23 - ClickFix "13 traps" campaign (CyberSecurityNews). Ref: https://cybersecuritynews.com/hackers-plant-13-clickfix-traps/
+#   Compromised site (13 injections):
+academicpipelinedatabase.net
+#   LOM payload / tracking domains:
+cosmical2049.com
+copiose.org
+internetserchinkas.co
+interseq.at
+#   Cloudflare lookalike lures:
+cloudflare.vc
+#   Kit 2 next-stage hosts:
+authshipup.net
+runtimerailbit.com
+servicestatlab.com
+admetricslab.org
+soft-update.dev
+#   Kit 3 (Macfinger) payload domain:
+reed-koaor-tekzr.pro
+
 # 2026-11-23 - ClickFix LOM kit - payload/tracking + Cloudflare-lookalike lures
 mlroweb.com
 escapeai.live
