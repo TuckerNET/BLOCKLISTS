@@ -11,6 +11,20 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-23 - BabidiGhost AI-agent intrusion - C2 / staging / exfil (ports 8889/8890/8443)
+45.92.111.116
+45.92.110.53
+
+# 2026-11-23 - ClickFix LOM kit - lure hosting
+94.103.1.233
+193.233.75.60
+144.31.53.119
+147.45.61.63
+2.26.225.200
+
+# 2026-11-23 - ClickFix Macfinger kit - payload IP
+45.147.31.197
+
 # 2026-11-21 - Com/ShinyHunters vishing: accessed compromised accounts (Unit 42)
 193.149.176.62
 
