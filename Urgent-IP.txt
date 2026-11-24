@@ -11,6 +11,9 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-23 - Adlumin Alert
+199.165.159.89
+
 # 2026-11-23 - BabidiGhost AI-agent intrusion - C2 / staging / exfil (ports 8889/8890/8443)
 45.92.111.116
 45.92.110.53
