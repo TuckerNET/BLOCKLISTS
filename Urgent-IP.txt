@@ -11,6 +11,9 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-24 - ZQAgent Linux backdoor C2 (FOG0003)
+37.122.150.15
+
 # 2026-11-23 - Adlumin Alert
 199.165.159.89
 
