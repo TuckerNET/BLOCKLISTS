@@ -11,6 +11,19 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-24 - M365 outage-lure phishing (Microsoft Security Blog). Ref: https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/
+#   Sender-domain cluster + tracking subdomains:
+planetmaison.com
+newbooker.com
+em.newbooker.com
+url.newbooker.com
+url7489.newbooker.com
+#   SendGrid per-sender tracking hosts (exact FQDN only; ct.sendgrid.net is shared):
+#   Downstream phishing destinations (also seen in /themelist0.html URLs):
+reallifeaccounting.com
+outagefixed.sbs
+outagerestored.sbs
+
 # 2026-11-24 - EvilTokens M365 phishing (post-takedown hosts)
 document-cloud.acrobatsadobe.com
 universaltoken.cfd
