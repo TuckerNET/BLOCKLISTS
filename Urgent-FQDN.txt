@@ -11,6 +11,11 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-24 - EvilTokens M365 phishing (post-takedown hosts)
+document-cloud.acrobatsadobe.com
+universaltoken.cfd
+dudrustrtwundaq.com
+
 # 2026-11-23 - ClickFix "13 traps" campaign (CyberSecurityNews). Ref: https://cybersecuritynews.com/hackers-plant-13-clickfix-traps/
 #   Compromised site (13 injections):
 academicpipelinedatabase.net
