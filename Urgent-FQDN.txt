@@ -11,7 +11,7 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
-# 2026-11-23 - Adobe / e-sign document-lure phishing (EvilTokens cluster) - post-takedown + worker hosts
+# 2026-11-23 - Adobe / e-sign document-lure phishing (EvilTokens cluster) - post-takedown + worker hosts. Ref: https://cybersecuritynews.com/eviltokens-phishing/
 #   base lookalike domains (attacker-owned; catches all subdomains):
 yahoosign.com
 adobesign.com.de
