@@ -11,6 +11,9 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-25 - hf.space (Hugging Face Spaces) - blocked by request (abused for malware/phishing hosting; broad - covers all Spaces)
+hf.space
+
 # 2026-11-24 - ShinyHunters-associated 'legal-<brand>' lookalike phishing (Okta). Ref: https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html
 legal-pepsico.com
 legal-paychex.com
