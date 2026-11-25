@@ -11,6 +11,19 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-24 - ShinyHunters-associated 'legal-<brand>' lookalike phishing (Okta). Ref: https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html
+legal-pepsico.com
+legal-paychex.com
+legal-duolingo.com
+activisionblizzard-legal.com
+legal-westernunion.com
+legal-dropbox.com
+legal-indeed.com
+legal-creditkarma.com
+legal-amd.com
+legal-grubhub.com
+legal-twitch.tv
+
 # 2026-11-23 - Adobe / e-sign document-lure phishing (EvilTokens cluster) - post-takedown + worker hosts. Ref: https://cybersecuritynews.com/eviltokens-phishing/
 #   base lookalike domains (attacker-owned; catches all subdomains):
 yahoosign.com
