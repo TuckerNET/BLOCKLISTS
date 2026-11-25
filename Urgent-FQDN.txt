@@ -11,6 +11,34 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-25 - Volant Manticore (Iran) / Vinci RAT infra. Ref: https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html
+#   Volant Manticore KuboShell/RMM infra:
+gatewaynet.site
+cnpcyprus.net
+cabelenet.com
+primtel-tel.com
+primetel-tel.com
+webmail-eac.com
+gapgroups.com
+medochomie.com
+aegeneair.com
+dpwords.com
+websitegate.net
+portal-gateway.net
+corenewsnetwork.com
+liveupdatenews.net
+#   HardwareInfo.msi stealer payload-lookup hosts (may be compromised legit sites):
+nyxservicos.com
+bestnews4u.com
+niagentech.com
+dvacontabil.com
+grupoathos.com
+carlosmarket.com
+#   Vinci RAT:
+snipp.codes-team.com
+setup-assistant.com
+monkeysholder.info
+
 # 2026-11-25 - hf.space (Hugging Face Spaces) - blocked by request (abused for malware/phishing hosting; broad - covers all Spaces)
 hf.space
 
