@@ -11,6 +11,125 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-23 - Adobe / e-sign document-lure phishing (EvilTokens cluster) - post-takedown + worker hosts
+#   base lookalike domains (attacker-owned; catches all subdomains):
+yahoosign.com
+adobesign.com.de
+acrobatsadobe.com
+#   lead / misc attacker hosts:
+secure-link-c96a.amcobisolutions.workers.dev
+salescontact1010.live-shared-m36503848.workers.dev
+79d7baba-5335-8a37-8f7b-adobe.6a3dsftj.workers.dev
+83435a5e-ac59-d779-c9c1-adobe.6a3dsftj.workers.dev
+sharepointdocnotify.documentshare027545.workers.dev
+voicemail.documentshare027545.workers.dev
+my-documents-reviews-shared-document-review.live-document-m365.workers.dev
+goodstoknowfr-portal.cloud-storage-id0347.workers.dev
+view-secure-document-f5rd-b-7rg0.msteinberg.workers.dev
+altitude-immobilier-portail.cloud-storage-id0346.workers.dev
+shared-docx-onlineauth.file-docs-p8763.workers.dev
+sedwick-doc-file-f56764355.file-shared-document-folder.workers.dev
+wetransfer-access-2btsq9nkh-awareness4.vercel.app
+#   globusmedical.adobesign.com.de (covered by base) + other attacker domains:
+globusmedical.adobesign.com.de
+tokenaccess.hornedepots.com
+signature-processing.armstrongslypka.com
+document-management.armstrongslypka.com
+tv.dmkjr.com
+#   BunnyCDN b-cdn.net hosts (exact FQDN only; b-cdn.net is shared):
+access-gate-knssk.b-cdn.net
+access-gate-vyii4.b-cdn.net
+portal-gate-z2vxn.b-cdn.net
+portal-gate-ry8ts.b-cdn.net
+portal-verify-4k8ip.b-cdn.net
+portal-verify-lwbl1.b-cdn.net
+portal-verify-vxc5p.b-cdn.net
+portal-verify-s2br3.b-cdn.net
+portal-verify-jknd8.b-cdn.net
+portal-verify-f7ktr.b-cdn.net
+portal-auth-6blwj.b-cdn.net
+secure-auth-zfamx.b-cdn.net
+portal-verify-z26t6.b-cdn.net
+portal-verify-g2bzs.b-cdn.net
+portal-verify-va2ty.b-cdn.net
+portal-verify-v586u.b-cdn.net
+hc-groups-com.b-cdn.net
+groupeperformance-portail.b-cdn.net
+panoramasf-portail.b-cdn.net
+pourquoipasevents-portail.b-cdn.net
+#   yahoosign.com lookalike subdomains (covered by base above; listed for exact-match filters):
+metro.yahoosign.com
+oxiteno.yahoosign.com
+unitedliving.yahoosign.com
+allianztiriac.yahoosign.com
+autoliv.yahoosign.com
+luxottica.yahoosign.com
+cisco.yahoosign.com
+evonik.yahoosign.com
+arup.yahoosign.com
+renault.yahoosign.com
+bis.yahoosign.com
+webhelp.yahoosign.com
+porsche.yahoosign.com
+msci.yahoosign.com
+hellmann.yahoosign.com
+nike.yahoosign.com
+nordgold.yahoosign.com
+leonardocompany.yahoosign.com
+performancefibers.yahoosign.com
+wacker.yahoosign.com
+bell.yahoosign.com
+allianz.yahoosign.com
+#   Cluster 1 hosts:
+ms783652-capital-restructuring-shared-docu.cloud-storage-id05765.workers.dev
+ms5478940-capital-rst-shared-document.cloud-storage-id05765.workers.dev
+doc-portail-groupegouletsports.vercel.app
+doc-portail-santacruzexpress.vercel.app
+mecaniqueprocam-portail.vercel.app
+bidinvitation-portal.cloud-storage-id0348.workers.dev
+#   disposable-mail domains:
+dropoffs.org
+dropons.com
+#   Cluster 2 - dropoffs worker hosts:
+741h-wgvd-pzqx.krystian-rahul-dropoffs-org-s-account.workers.dev
+kuvm-kgt8-mu4d.alanzo-oaklee-dropoffs-org-s-account.workers.dev
+lbja-6j7y-tyjs.nyzaiah-aleph-dropoffs-org-s-account.workers.dev
+3it9-qvj5-0v42.merari-acelynn-dropoffs-org-s-account.workers.dev
+j2rl-tz71-6djz.keynan-alexavier-dropoffs-org-s-account.workers.dev
+n8o2-gg7f-efoz.alter-quintavious-dropoffs-org-s-account.workers.dev
+o3jv-u3t6-yiyy.wilfredo-jiovonni-dropoffs-org-s-account.workers.dev
+5be1-718o-dpxh.stewart-nicklaus-dropoffs-org-s-account.workers.dev
+d6ya-xfm9-b2r8.himansh-stavro-dropoffs-org-s-account.workers.dev
+epv9-5gfi-9e8a.montae-yeiren-dropoffs-org-s-account.workers.dev
+op9z-350e-fxxc.pragyan-drexel-dropoffs-org-s-account.workers.dev
+vaef-ckja-ci1z.altair-dawoud-dropoffs-org-s-account.workers.dev
+1xts-z69d-j9wo.tatem-jauan-dropoffs-org-s-account.workers.dev
+mbxo-18ov-om3y.cadarius-dmoni-dropoffs-org-s-account.workers.dev
+lu2c-mpwe-10il.hadlyn-abrie-dropoffs-org-s-account.workers.dev
+kjki-m7zd-dg1u.mithran-koltan-dropoffs-org-s-account.workers.dev
+3guc-ynzo-bnnr.kelii-burton-dropoffs-org-s-account.workers.dev
+3s0v-vew4-fnl1.larken-jarret-dropoffs-org-s-account.workers.dev
+qe5h-o114-3kdb.guru-rayn-dropoffs-org-s-account.workers.dev
+xykc-as3b-esvb.falcon-mosie-dropoffs-org-s-account.workers.dev
+#   Cluster 2 - dropons worker hosts:
+ahk2-tnxp-129v.tavarus-shamarion-dropons-com-s-account.workers.dev
+xh1j-rezo-z9w0.jamarius-janziel-dropons-com-s-account.workers.dev
+bsh3-1jde-ohgk.neeko-kyre-dropons-com-s-account.workers.dev
+adobe-xaf.azavier-cavion-dropons-com-s-account.workers.dev
+8qmr-w1xo-xwrg.makarios-demarion-dropons-com-s-account.workers.dev
+iuii-2fah-6j0s.dariell-nate-dropons-com-s-account.workers.dev
+6hyk-3p7b-hnow.terryn-demetrious-dropons-com-s-account.workers.dev
+4ejv-5wtl-336y.leighton-quincy-dropons-com-s-account.workers.dev
+rzxd-0m0g-3ax7.oaks-giancarlos-dropons-com-s-account.workers.dev
+yb8p-g6tj-bbp8.garyson-ryley-dropons-com-s-account.workers.dev
+hoxy-h8a3-yswf.kaimani-kaegan-dropons-com-s-account.workers.dev
+63qm-wp5t-c40y.breylon-tilak-dropons-com-s-account.workers.dev
+yfsi-hg2e-mpxm.cashmir-azul-dropons-com-s-account.workers.dev
+evvs-zkcx-vbeh.tyrell-nandan-dropons-com-s-account.workers.dev
+sgiq-beg8-9yib.annas-advait-dropons-com-s-account.workers.dev
+t8iw-mmzx-ttab.dorlan-honor-dropons-com-s-account.workers.dev
+j80y-4lzt-hxcg.shevy-jassir-dropons-com-s-account.workers.dev
+
 # 2026-11-24 - M365 outage-lure phishing (Microsoft Security Blog). Ref: https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/
 #   Sender-domain cluster + tracking subdomains:
 planetmaison.com
