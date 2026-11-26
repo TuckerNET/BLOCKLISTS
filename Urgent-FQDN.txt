@@ -13,14 +13,12 @@
 
 # 2026-11-26 urgent add — Silver Fox fake oCam download infra [src: https://cybersecuritynews.com/silver-fox-hackers/]
 dl2.appdlhub.workers.dev
-# 2026-11-26 urgent add — Silver Fox fake oCam download host [src: https://cybersecuritynews.com/silver-fox-hackers/]
 pcdanouk.appdlhub.workers.dev
-# 2026-11-26 urgent add — Silver Fox related subdomains (*.appdlhub.workers.dev) [src: https://cybersecuritynews.com/silver-fox-hackers/]
 appdlhub.workers.dev
 # 2026-11-26 urgent add — Exposed hacker servers - Poseidon callback [src: https://cybersecuritynews.com/exposed-hacker-servers/]
 lababalbaba.com
-# 2026-11-26 urgent add — Exposed hacker servers - historical portal [src: https://cybersecuritynews.com/exposed-hacker-servers/]
 sb-it-support.com
+
 # 2026-11-25 - Volant Manticore (Iran) / Vinci RAT infra. Ref: https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html
 #   Volant Manticore KuboShell/RMM infra:
 gatewaynet.site
