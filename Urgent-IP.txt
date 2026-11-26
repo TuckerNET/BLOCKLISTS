@@ -1,3 +1,16 @@
+# =====================================================================
+#  URGENT BLOCKLIST  -  IP INDICATORS
+# ---------------------------------------------------------------------
+#  Rapid-response indicators tied to active attacks and emerging threats
+#  observed in-environment. Treat these as TEMPORARY, high-priority
+#  additions to firewall and DNS filtering policy: applied quickly, ahead
+#  of the standard curated feeds, and pruned once the threat is contained
+#  or promoted to a permanent list.
+#
+#  Each indicator sits under a dated incident block recording when and why
+#  it was added. Lines beginning with '#' are comments and are not enforced.
+# =====================================================================
+
 # 2026-11-26 urgent add — Exposed hacker servers - staging/beacon config [src: https://cybersecuritynews.com/exposed-hacker-servers/]
 45.83.180.113
 # 2026-11-26 urgent add — Exposed hacker servers - second VPS [src: https://cybersecuritynews.com/exposed-hacker-servers/]
@@ -14,19 +27,6 @@
 23.27.13.72
 # 2026-11-26 urgent add — GitHub PR stealer - server IP [src: https://cybersecuritynews.com/password-stealing-malware/]
 166.88.134.75
-# =====================================================================
-#  URGENT BLOCKLIST  -  IP INDICATORS
-# ---------------------------------------------------------------------
-#  Rapid-response indicators tied to active attacks and emerging threats
-#  observed in-environment. Treat these as TEMPORARY, high-priority
-#  additions to firewall and DNS filtering policy: applied quickly, ahead
-#  of the standard curated feeds, and pruned once the threat is contained
-#  or promoted to a permanent list.
-#
-#  Each indicator sits under a dated incident block recording when and why
-#  it was added. Lines beginning with '#' are comments and are not enforced.
-# =====================================================================
-
 # 2026-11-25 - Volant Manticore (Iran) KuboShell/RMM infra + Vinci RAT C2. Ref: https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html
 185.205.187.107
 185.205.187.108
