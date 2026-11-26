@@ -15,20 +15,15 @@
 199.165.159.185
 # 2026-11-26 urgent add — Exposed hacker servers - staging/beacon config [src: https://cybersecuritynews.com/exposed-hacker-servers/]
 45.83.180.113
-# 2026-11-26 urgent add — Exposed hacker servers - second VPS [src: https://cybersecuritynews.com/exposed-hacker-servers/]
 91.236.230.9
-# 2026-11-26 urgent add — Exposed hacker servers - third directory [src: https://cybersecuritynews.com/exposed-hacker-servers/]
 74.63.203.115
-# 2026-11-26 urgent add — Exposed hacker servers - historical Mythic service [src: https://cybersecuritynews.com/exposed-hacker-servers/]
 45.83.182.68
-# 2026-11-26 urgent add — Exposed hacker servers - historical proxy [src: https://cybersecuritynews.com/exposed-hacker-servers/]
 194.213.18.54
 # 2026-11-26 urgent add — GitHub PR stealer - server IP (current) [src: https://cybersecuritynews.com/password-stealing-malware/]
 95.135.181.84
-# 2026-11-26 urgent add — GitHub PR stealer - server IP [src: https://cybersecuritynews.com/password-stealing-malware/]
 23.27.13.72
-# 2026-11-26 urgent add — GitHub PR stealer - server IP [src: https://cybersecuritynews.com/password-stealing-malware/]
 166.88.134.75
+
 # 2026-11-25 - Volant Manticore (Iran) KuboShell/RMM infra + Vinci RAT C2. Ref: https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html
 185.205.187.107
 185.205.187.108
@@ -228,4 +223,3 @@
 155.94.150.39
 86.106.143.249
 144.126.149.104
-
