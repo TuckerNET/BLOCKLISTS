@@ -12,7 +12,6 @@
 # =====================================================================
 
 # 2026-11-27 urgent add — Indicator| Context [src: https://cybersecuritynews.com/new-sys010-malware/]
-NEW-notonanylist
 cdn.static-contents.com
 cdn.httplivelywallpaper.app
 lelebag.com
