@@ -11,6 +11,12 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-27 urgent add — Indicator| Context [src: https://cybersecuritynews.com/new-sys010-malware/]
+NEW-notonanylist
+cdn.static-contents.com
+cdn.httplivelywallpaper.app
+lelebag.com
+
 # 2026-11-26 urgent add — Silver Fox fake oCam download infra [src: https://cybersecuritynews.com/silver-fox-hackers/]
 dl2.appdlhub.workers.dev
 pcdanouk.appdlhub.workers.dev
@@ -506,3 +512,4 @@ newnewnew.gotdns.org
 soxnewwork.homedns.org
 cdn007-digitaldownloads.com
 ns.mo7sen.dev
+
