@@ -11,6 +11,9 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-27 urgent add — SANS ISC diary [src: https://isc.sans.edu/diary/rss/33550]
+109.160.32.0/24
+
 # 2026-11-26 urgent add — Adlumin Alert
 199.165.159.185
 # 2026-11-26 urgent add — Exposed hacker servers - staging/beacon config [src: https://cybersecuritynews.com/exposed-hacker-servers/]
@@ -223,3 +226,4 @@
 155.94.150.39
 86.106.143.249
 144.126.149.104
+
