@@ -11,6 +11,11 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-28 urgent add — Microsoft Store app delivering malware [src: https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html]
+roblx.codes-team.com
+teams.codes-team.com
+teamsmac.codes-team.com
+teams-bing.codes-team.com
 # 2026-11-28 urgent add — SYS01O / wallpaper-lure malware infrastructure [src: https://cybersecuritynews.com/new-sys010-malware/]
 wallpapersengine.com
 gover.top
@@ -542,5 +547,6 @@ newnewnew.gotdns.org
 soxnewwork.homedns.org
 cdn007-digitaldownloads.com
 ns.mo7sen.dev
+
 
 
