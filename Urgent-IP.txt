@@ -11,6 +11,9 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-28 urgent add
+8.210.69.51
+
 # 2026-11-27 urgent add — SANS ISC diary [src: https://isc.sans.edu/diary/rss/33550]
 109.160.32.0/24
 
@@ -226,4 +229,5 @@
 155.94.150.39
 86.106.143.249
 144.126.149.104
+
 
