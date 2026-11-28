@@ -11,7 +11,7 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
-# 2026-11-28 urgent add
+# 2026-11-28 urgent add — Trojanized Q-Dir installer [src: https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html]
 8.210.69.51
 
 # 2026-11-27 urgent add — SANS ISC diary [src: https://isc.sans.edu/diary/rss/33550]
