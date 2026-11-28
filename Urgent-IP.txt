@@ -11,6 +11,10 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-28 urgent add — North Korea-linked PolinRider poisoning [src: https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html]
+103.179.142.155
+103.179.143.219
+95.135.181.151
 # 2026-11-28 urgent add — Trojanized Q-Dir installer [src: https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html]
 8.210.69.51
 
@@ -229,5 +233,6 @@
 155.94.150.39
 86.106.143.249
 144.126.149.104
+
 
 
