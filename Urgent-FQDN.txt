@@ -11,6 +11,37 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-28 urgent add — SYS01O / wallpaper-lure malware infrastructure [src: https://cybersecuritynews.com/new-sys010-malware/]
+wallpapersengine.com
+gover.top
+wallpapers.top
+upfiles.top
+4kwallpapers.top
+wallpaper-engine.pro
+pcsofts.site
+scontent.storys.top
+content.document-hub.top
+static.docs-helper.top
+best-pc-softs.top
+shashen.top
+okara.top
+pitanie.top
+volosy.top
+geliang.top
+sybase.top
+avela.top
+bmap.top
+keshen.top
+grosir.top
+rarer.top
+svc.workplace-local.com
+schools-account.com
+porugo.com
+openmagic.net
+esora.top
+merio.top
+dnow.top
+
 # 2026-11-27 urgent add — Indicator| Context [src: https://cybersecuritynews.com/new-sys010-malware/]
 cdn.static-contents.com
 cdn.httplivelywallpaper.app
@@ -511,4 +542,5 @@ newnewnew.gotdns.org
 soxnewwork.homedns.org
 cdn007-digitaldownloads.com
 ns.mo7sen.dev
+
 
