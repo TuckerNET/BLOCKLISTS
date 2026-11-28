@@ -11,6 +11,8 @@
 #  it was added. Lines beginning with '#' are comments and are not enforced.
 # =====================================================================
 
+# 2026-11-28 urgent add
+mail.c1a2.top
 # 2026-11-28 urgent add — Microsoft Store app delivering malware [src: https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html]
 roblx.codes-team.com
 teams.codes-team.com
@@ -547,6 +549,7 @@ newnewnew.gotdns.org
 soxnewwork.homedns.org
 cdn007-digitaldownloads.com
 ns.mo7sen.dev
+
 
 
 
